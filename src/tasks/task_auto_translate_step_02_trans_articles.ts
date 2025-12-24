@@ -11,7 +11,8 @@ const map_str_prompts: any = {
     "es": "Tengo un archivo md, por favor tradúzcalo al español. La traducción debe mantener estrictamente el formato y la disposición del archivo original en markdown. Por favor, simplemente muéstrelo sin hacer preguntas.\n",
     "pt": "Eu tenho um arquivo md, por favor, traduza-o para o português. A tradução deve manter rigorosamente a formatação e layout markdown do arquivo original. Por favor, forneça a tradução diretamente sem fazer perguntas.",
     "it": "Ho un file md, per favore traducilo in italiano. La traduzione dovrà mantenere rigorosamente il formato e l'impaginazione del file markdown originale. Per favore, mostra il file tradotto senza fare domande.",
-    "uk": "Будь ласка, переклади наданий md-файл українською мовою. Переклад має строго дотримуватись формату та макету оригіналу. Одразу ж надай переклад, нічого не запитуючи."
+    "uk": "Будь ласка, переклади наданий md-файл українською мовою. Переклад має строго дотримуватись формату та макету оригіналу. Одразу ж надай переклад, нічого не запитуючи.",
+    "fr": "Traduis ce contenu Markdown en français. adopte un style naturel, adapté à un article web technique. Ne modifie sous aucun prétexte le formatage Markdown original. Assure-toi de respecter la typographie française (espaces insécables). Fournis directement la traduction sans préambule ni questions."
 }
 
 async function translate(str_md: string, str_prompt: string, with_task_translate_openai_api_key: string) {
